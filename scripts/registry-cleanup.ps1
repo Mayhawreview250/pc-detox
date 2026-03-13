@@ -1,4 +1,4 @@
-# Registry Cleanup Script - OhMyComputer
+# Registry Cleanup Script - PC-Detox
 # 삭제된 프로그램의 잔여 레지스트리 키를 찾아서 정리합니다
 
 Write-Host "=== 레지스트리 정리 시작 ===" -ForegroundColor Cyan

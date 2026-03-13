@@ -1,0 +1,114 @@
+{
+  "samsung": {
+    "name": "Samsung",
+    "apps": [
+      { "id": "SAMSUNGELECTRONICSCO*SmartThings*", "name": "SmartThings", "risk": "safe", "description": "IoT device control - usually not needed on laptop" },
+      { "id": "SAMSUNGELECTRONICSCO*SamsungNotes*", "name": "Samsung Notes", "risk": "safe", "description": "Note app - use OneNote or Notepad instead" },
+      { "id": "SAMSUNGELECTRONICSCO*SamsungSettings*", "name": "Samsung Settings", "risk": "low", "description": "Samsung-specific settings - may affect hardware controls" },
+      { "id": "SAMSUNGELECTRONICSCO*SamsungQuickSearch*", "name": "Samsung Quick Search", "risk": "safe", "description": "Redundant search - Windows Search works fine" },
+      { "id": "SAMSUNGELECTRONICSCO*OnlineSupportS*", "name": "Samsung Online Support", "risk": "safe", "description": "Support app - use website instead" },
+      { "id": "SAMSUNGELECTRONICSCO*SamsungUpdate*", "name": "Samsung Update", "risk": "low", "description": "Driver updates - can use Windows Update instead" },
+      { "id": "SAMSUNGELECTRONICSCO*SamsungRecovery*", "name": "Samsung Recovery", "risk": "high", "description": "System recovery tool - keep if no USB recovery drive" }
+    ]
+  },
+  "lg": {
+    "name": "LG",
+    "apps": [
+      { "id": "*LGUpdate*", "name": "LG Update Center", "risk": "low", "description": "Driver updates - can use Windows Update" },
+      { "id": "*LGControlCenter*", "name": "LG Control Center", "risk": "low", "description": "Hardware controls - may affect keyboard/fan" }
+    ]
+  },
+  "hp": {
+    "name": "HP",
+    "apps": [
+      { "id": "AD2F1837*", "name": "HP Support Assistant", "risk": "safe", "description": "HP bloatware - slows system" },
+      { "id": "*HPJumpStarts*", "name": "HP JumpStarts", "risk": "safe", "description": "Setup wizard - not needed after initial setup" },
+      { "id": "*HPPCHardwareDiag*", "name": "HP PC Hardware Diagnostics", "risk": "safe", "description": "Diagnostic tool - rarely needed" },
+      { "id": "*HPPrinterControl*", "name": "HP Printer Control", "risk": "safe", "description": "Remove if you don't have an HP printer" },
+      { "id": "*myHP*", "name": "myHP", "risk": "safe", "description": "HP account app - not needed" }
+    ]
+  },
+  "dell": {
+    "name": "Dell",
+    "apps": [
+      { "id": "*DellInc*SupportAssist*", "name": "Dell SupportAssist", "risk": "safe", "description": "Dell bloatware - known to slow systems" },
+      { "id": "*DellInc*DellDigitalDelivery*", "name": "Dell Digital Delivery", "risk": "safe", "description": "Software delivery - not needed" },
+      { "id": "*DellInc*DellUpdate*", "name": "Dell Update", "risk": "low", "description": "Driver updates - can use Windows Update" }
+    ]
+  },
+  "lenovo": {
+    "name": "Lenovo",
+    "apps": [
+      { "id": "*LenovoCompanion*", "name": "Lenovo Vantage/Companion", "risk": "low", "description": "System management - may control battery/performance modes" },
+      { "id": "*LenovoUtility*", "name": "Lenovo Utility", "risk": "safe", "description": "Lenovo helper app" },
+      { "id": "*LenovoNerveCenter*", "name": "Lenovo Nerve Center", "risk": "safe", "description": "Gaming features - remove if not gaming" }
+    ]
+  },
+  "microsoft_bloat": {
+    "name": "Microsoft Bloatware",
+    "apps": [
+      { "id": "Microsoft.BingWeather", "name": "Bing Weather", "risk": "safe", "description": "Weather widget - use browser instead" },
+      { "id": "Microsoft.BingNews", "name": "Bing News", "risk": "safe", "description": "News feed - use browser instead" },
+      { "id": "Microsoft.BingFinance", "name": "Bing Finance", "risk": "safe", "description": "Finance widget - use browser instead" },
+      { "id": "Microsoft.BingSports", "name": "Bing Sports", "risk": "safe", "description": "Sports widget - use browser instead" },
+      { "id": "Microsoft.GamingApp", "name": "Xbox App", "risk": "safe", "description": "Gaming features - remove if you don't game on PC" },
+      { "id": "Microsoft.XboxGameOverlay", "name": "Xbox Game Bar", "risk": "safe", "description": "In-game overlay - remove if you don't game" },
+      { "id": "Microsoft.XboxGamingOverlay", "name": "Xbox Gaming Overlay", "risk": "safe", "description": "Gaming overlay - remove if you don't game" },
+      { "id": "Microsoft.XboxSpeechToTextOverlay", "name": "Xbox Speech to Text", "risk": "safe", "description": "Gaming accessibility feature" },
+      { "id": "Microsoft.XboxIdentityProvider", "name": "Xbox Identity Provider", "risk": "low", "description": "Xbox login - needed for Xbox/MS Store games" },
+      { "id": "Microsoft.MixedReality.Portal", "name": "Mixed Reality Portal", "risk": "safe", "description": "VR/AR portal - remove if no VR headset" },
+      { "id": "Microsoft.3DBuilder", "name": "3D Builder", "risk": "safe", "description": "3D modeling app - rarely used" },
+      { "id": "Microsoft.Microsoft3DViewer", "name": "3D Viewer", "risk": "safe", "description": "3D file viewer - rarely used" },
+      { "id": "Microsoft.MicrosoftSolitaireCollection", "name": "Solitaire Collection", "risk": "safe", "description": "Card games - contains ads" },
+      { "id": "Microsoft.SkypeApp", "name": "Skype", "risk": "safe", "description": "Communication app - use Teams or other apps" },
+      { "id": "Microsoft.MicrosoftOfficeHub", "name": "Office Hub", "risk": "safe", "description": "Office promotion - not actual Office" },
+      { "id": "Microsoft.OneConnect", "name": "Mobile Plans", "risk": "safe", "description": "Cellular data plans - remove if not used" },
+      { "id": "Microsoft.People", "name": "People", "risk": "safe", "description": "Contact manager - rarely used standalone" },
+      { "id": "Microsoft.Getstarted", "name": "Tips", "risk": "safe", "description": "Windows tips - not needed" },
+      { "id": "Microsoft.Wallet", "name": "Microsoft Pay", "risk": "safe", "description": "Payment system - rarely used on desktop" },
+      { "id": "Microsoft.WindowsMaps", "name": "Windows Maps", "risk": "safe", "description": "Maps app - use browser instead" },
+      { "id": "Microsoft.WindowsFeedbackHub", "name": "Feedback Hub", "risk": "safe", "description": "Send feedback to MS - not needed" },
+      { "id": "Microsoft.ZuneMusic", "name": "Groove Music", "risk": "safe", "description": "Music player - use Spotify or other apps" },
+      { "id": "Microsoft.ZuneVideo", "name": "Movies & TV", "risk": "safe", "description": "Video player - use VLC or other apps" },
+      { "id": "Microsoft.YourPhone", "name": "Phone Link", "risk": "safe", "description": "Phone mirroring - remove if not used" },
+      { "id": "Microsoft.WindowsCommunicationsApps", "name": "Mail & Calendar", "risk": "safe", "description": "Email client - use Outlook or browser" },
+      { "id": "MicrosoftTeams", "name": "Microsoft Teams (personal)", "risk": "safe", "description": "Chat app - remove if using work Teams or other apps" },
+      { "id": "Clipchamp.Clipchamp", "name": "Clipchamp", "risk": "safe", "description": "Video editor - remove if not needed" },
+      { "id": "Microsoft.Todos", "name": "Microsoft To Do", "risk": "safe", "description": "Task manager - remove if using other tools" },
+      { "id": "Microsoft.PowerAutomateDesktop", "name": "Power Automate", "risk": "safe", "description": "Automation tool - remove if not used" }
+    ]
+  },
+  "ad_bundle": {
+    "name": "Pre-installed Ads",
+    "apps": [
+      { "id": "FACEBOOK*", "name": "Facebook", "risk": "safe", "description": "Social media - use browser instead" },
+      { "id": "*Facebook*", "name": "Facebook", "risk": "safe", "description": "Social media - use browser instead" },
+      { "id": "*Disney*", "name": "Disney+", "risk": "safe", "description": "Streaming app - use browser instead" },
+      { "id": "*TikTok*", "name": "TikTok", "risk": "safe", "description": "Social media - use browser instead" },
+      { "id": "*Netflix*", "name": "Netflix", "risk": "safe", "description": "Streaming app - use browser instead" },
+      { "id": "*Spotify*", "name": "Spotify", "risk": "safe", "description": "Music streaming - keep if you use it" },
+      { "id": "*Twitter*", "name": "Twitter/X", "risk": "safe", "description": "Social media - use browser instead" },
+      { "id": "*Instagram*", "name": "Instagram", "risk": "safe", "description": "Social media - use browser instead" },
+      { "id": "*Amazon*Shopping*", "name": "Amazon Shopping", "risk": "safe", "description": "Shopping app - use browser instead" },
+      { "id": "*PrimeVideo*", "name": "Prime Video", "risk": "safe", "description": "Streaming app - use browser instead" },
+      { "id": "*CandyCrush*", "name": "Candy Crush", "risk": "safe", "description": "Mobile game - ad-supported bloatware" },
+      { "id": "*BubbleWitch*", "name": "Bubble Witch", "risk": "safe", "description": "Mobile game - ad-supported bloatware" },
+      { "id": "*MarchofEmpires*", "name": "March of Empires", "risk": "safe", "description": "Mobile game - ad-supported bloatware" },
+      { "id": "*Duolingo*", "name": "Duolingo", "risk": "safe", "description": "Language learning - use browser or phone instead" },
+      { "id": "*LinkedIn*", "name": "LinkedIn", "risk": "safe", "description": "Professional network - use browser instead" }
+    ]
+  },
+  "korean_security": {
+    "name": "Korean Banking Security",
+    "apps": [
+      { "id": "*AhnLab*", "name": "AhnLab Safe Transaction", "risk": "safe", "description": "Banking security - reinstalls when you visit banking sites" },
+      { "id": "*nProtect*", "name": "nProtect", "risk": "safe", "description": "Banking security - reinstalls automatically" },
+      { "id": "*TouchEn*", "name": "TouchEn nxKey", "risk": "safe", "description": "Keyboard security - reinstalls when needed" },
+      { "id": "*CrossEX*", "name": "CrossEX", "risk": "safe", "description": "Certificate helper - reinstalls when needed" },
+      { "id": "*INITECH*", "name": "INITECH Security", "risk": "safe", "description": "Banking PKI - reinstalls when needed" },
+      { "id": "*Wizvera*", "name": "Wizvera Veraport", "risk": "safe", "description": "Security installer - reinstalls from banking sites" },
+      { "id": "*MarkAny*", "name": "MarkAny", "risk": "safe", "description": "DRM/watermark - reinstalls when needed" },
+      { "id": "*INCA*", "name": "INCA Internet", "risk": "safe", "description": "Anti-keylogger - reinstalls from banking sites" }
+    ]
+  }
+}

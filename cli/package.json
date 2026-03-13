@@ -1,0 +1,26 @@
+{
+  "name": "pc-detox",
+  "version": "1.0.0",
+  "description": "Detox your PC. Windows cleanup & optimization wizard.",
+  "bin": { "pc-detox": "./bin/pc-detox.js" },
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "keywords": [
+    "windows", "optimization", "cleanup", "pc", "registry", "bloatware",
+    "performance", "speed", "boost", "disk", "temp", "cache", "startup",
+    "system", "monitor", "process", "scheduled-tasks", "defender",
+    "uninstall", "remove", "samsung", "dell", "hp", "lenovo",
+    "cli", "terminal", "tool", "utility", "maintenance",
+    "pc-cleaner", "ccleaner-alternative", "bleachbit-alternative",
+    "computer", "fast", "slow-pc", "fix", "repair",
+    "korean", "banking-security", "crapware", "junkware",
+    "free", "open-source", "npx"
+  ],
+  "license": "MIT",
+  "files": ["bin/", "src/", "data/"],
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1",
+    "cli-table3": "^0.6.5"
+  }
+}
