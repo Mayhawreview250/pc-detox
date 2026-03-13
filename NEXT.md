@@ -21,6 +21,12 @@
 - [x] 7-Zip 설치 (ALZip 대체)
 - [x] Temp/브라우저캐시/Windows업데이트캐시 정리
 - [x] ESTsoft 잔여 폴더 재부팅 시 자동 삭제 예약
+- [x] C: 루트 정리 (OneDriveTemp, Temp, tmp, Config.Msi, SCAN, Wallpaper, inetpub, Tenorshare 삭제)
+- [x] C: 루트 로그/잔여 파일 정리 (DumpStack, setup.log, bootTel 등)
+- [x] Program Files 정리 (AhnLab, ESTsoft, ReasonLabs, Samsung, VOICEVOX, Waves, Wizvera 등 삭제)
+- [x] Program Files에서 Eagle, Obsidian, VLC 삭제 (사용자 결정)
+- [x] WSL/Ubuntu 제거 (현재 앱에 불필요)
+- [x] INZISOFT, common_attachment, Python314 — 확인 보류
 
 ## 다음 구현
 
@@ -58,19 +64,20 @@
 - [ ] 다크모드
 - [ ] 최적화 히스토리 로그
 
+## 재부팅 후 할 일
+- [ ] Program Files (x86) 잔여 보안 폴더 16개 삭제 (ESTsoft, HGrid, INCA, iniLINE, IPinside, MarkAny, RaonSecure, SManager, SoftForum, Wizvera, Wedisk, Tenorshare, Unidocs, Inzisoft, Samsung, Application Verifier)
+- [ ] 탐색기 왼쪽 Linux 항목 사라졌는지 확인 (안 사라졌으면 레지스트리 제거)
+- [ ] C: 루트 INZISOFT, common_attachment, Python314 정리 여부 결정
+
 ## 유지 프로그램 (삭제 금지)
 - MagicLine4NX (전자세금계산서)
 - SignKorea / KeySharp / AnySign4PC / DreamSecurity (공인인증서)
 - 키움증권 영웅문4 (HTS)
 - Google Drive
 - Miniconda / Anaconda (개발)
-- Obsidian, Eagle, FileZilla, foobar2000, VLC
+- FileZilla, foobar2000
 - Kakao, Edge, Spotify
 - NPKI 폴더 (인증서 저장)
-
-## 확인 필요
-- [ ] VOICEVOX — 사용 여부 확인
-- [ ] Tenorshare — 사용 여부 확인
 
 ## 주의사항
 - Google Drive: 사용자가 유지 원함, 건드리지 말 것
